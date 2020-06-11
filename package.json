@@ -1,0 +1,42 @@
+{
+  "name": "@xyclos/commitlint-plugin-references",
+  "version": "0.0.1",
+  "description": "Custom commitlint rules which allows requiring references only for specific commit types.",
+  "main": "index.js",
+  "keywords": [
+    "commitlint",
+    "commitlintplugin",
+    "xyclos"
+  ],
+  "scripts": {
+    "test": "jest"
+  },
+  "files": [
+    "index.js",
+    "rules/*"
+  ],
+  "author": "xyclos <jake@xyclos.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "@commitlint/lint": ">=7.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.2.0",
+    "eslint-plugin-prettier": "^3.1.3",
+    "jest": "24.9.0",
+    "jest-in-case": "^1.0.2",
+    "prettier": "2.0.5"
+  },
+  "dependencies": {
+    "@commitlint/ensure": "^8.3.4",
+    "@commitlint/message": "^8.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xyclos/commitlint-plugin-references.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xyclos/commitlint-plugin-references/issues"
+  },
+  "homepage": "https://github.com/xyclos/commitlint-plugin-references#readme"
+}
